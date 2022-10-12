@@ -33,8 +33,8 @@ class ArticleController extends Controller
                 <td>' . $item['description'] . '</td>
                 <td><a href="/uploads/article/' . $item['img'] . '" target="_blank">' . $item['img'] . '</a></td>
                 <td>
-                    <a href="/article/edit/' . $item['id'] . '" class="btn btn-warning btn-sm"><i class="feather icon-edit"> </i></a>
-                    <a href="/article/delete/' . $item['id'] . '" class="btn btn-danger btn-sm"><i class="feather icon-x"> </i></a>
+                    <a href="/panel/article/edit/' . $item['id'] . '" class="btn btn-warning btn-sm"><i class="feather icon-edit"> </i></a>
+                    <a href="/panel/article/delete/' . $item['id'] . '" class="btn btn-danger btn-sm"><i class="feather icon-x"> </i></a>
                 </td>';
             }
         }
