@@ -14,5 +14,3 @@ use App\Http\Controllers\AuthController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', [Controller::class, 'index'])->name('index');
